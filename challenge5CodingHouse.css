@@ -1,0 +1,76 @@
+body {
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+button {
+	background:none;
+	border:none;
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.defaultClass {
+	color: white;
+	background-color: white;
+}
+
+.darkTheme {
+	background-color: black;
+	color: white;
+}
+
+.lightTheme {
+	background-color: #87CEFA;
+	color: #191970;
+}
+
+#darkThemeDiv {
+	height: 600px;
+	width: 300px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+
+#lightThemeDiv {
+	height: 600px;
+	width: 300px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+
+.lightDivAdjustmentsForDark {
+	background-color: black;
+	color: black;
+}
+
+.darkDivAdjustmentsForLight {
+	background-color: #87CEFA;
+	color: #87CEFA;
+}
+
+.darkDivAdjustmentsForDark {
+	background-color: gray;
+	color: red;
+}
+
+.lightDivAdjustmentsForLight {
+	background-color: blue;
+	color: white;
+}
